@@ -1,29 +1,26 @@
-# Create React Express App
+# GOOGLE BOOKS SEARCH
 
-## About This Boilerplate
+## Descripiton
+The Google Books Search is a web based application built with React, hosted on Heroku, powered and supported by Node and Express with MongoDB database that allows the user to save book queries. Once the user has searched the application will display information of the query to include author and book details with a photo of the book cover. 
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## User Instructions
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Technology
+* [MongoBD](https://www.mongodb.com/)
+* [Mongoose](https://mongoosejs.com/docs/)
+* [Express](https://www.npmjs.com/package/express)
+* [Express-Compression](https://www.npmjs.com/package/compression)
+* [Heroku](https://devcenter.heroku.com/categories/reference)
+* [Node.js](https://nodejs.org/en/)
+* [npmjs](https://docs.npmjs.com/)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Boostrap](https://getbootstrap.com/)
 
-## Starting the app locally
+## Authors
+**Payton Banks**
+- [LinkedIn](https://www.linkedin.com/feed/)
+- [Github](https://github.com/paytonbanks)
+- [Email](mailto:payton.banks@gmail.com)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
 
-```
-npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
